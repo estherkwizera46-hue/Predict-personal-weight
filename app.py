@@ -17,7 +17,7 @@ import pandas as pd
 import streamlit as st
 
 # Load the trained model
-loaded_model = pickle.load(open('C:/Users/user/Desktop/My dataset/weight_data.sav', 'rb'))
+loaded_model = pickle.load(open('weight_data.sav', 'rb'))
 
 # Prediction function
 def weight_data_prediction(Gender, Workout_Type, Age, Height_m):
@@ -61,4 +61,5 @@ def main():
             st.error("Please enter valid numeric values for all inputs.")
 
 if __name__ == "__main__":
+
     main()

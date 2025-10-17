@@ -1,16 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Oct 17 18:54:30 2025
-
-@author: user
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Oct 17 18:04:36 2025
-
-@author: user
-"""
 
 import pickle
 import pandas as pd
@@ -63,3 +50,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
